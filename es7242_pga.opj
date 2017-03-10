@@ -1,0 +1,166 @@
+(ExpressProject "es7242_pga"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\9-1\everestpart.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\es7242_pga.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    ("HEADER 2"
+      (FullPartName "HEADER 2.Normal")
+      (LibraryName "E:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("TEST POINT"
+      (FullPartName "TEST POINT.Normal")
+      (LibraryName "E:\WEEK WORK\2016-1-WW01\9-1\EVERESTPART.OLB")
+      (DeviceIndex "0"))
+    (LM1117
+      (FullPartName "LM1117.Normal")
+      (LibraryName "E:\WEEK WORK\2016-1-WW01\9-1\EVERESTPART.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "E:\ORCAD\ORCAD_10.3\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "E:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (MICROPHONE
+      (FullPartName "MICROPHONE.Normal")
+      (LibraryName "E:\WEEK WORK\2016-1-WW01\9-1\EVERESTPART.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "E:\CADENCE\SPB_17.0\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (TLV2221
+      (FullPartName "TLV2221.Normal")
+      (LibraryName "E:\WEEK WORK\2016-1-WW01\9-1\EVERESTPART.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "E:\WEEK WORK\2016-1-WW01\es7242\es7242_pga.dsn")
+      (Path "Design Resources" "E:\WEEK WORK\2016-1-WW01\es7242\es7242_pga.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "E:\WEEK WORK\2016-1-WW01\9-1\everestpart.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 221"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 970 104 364")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "571 0")
+        (Zoom "243"))
+      (Path "E:\WEEK WORK\2016-1-WW01\9-1\EVERESTPART.OLB")
+      (Package "TLV2221"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1264 104 364")
+        (Scroll "-275 0")
+        (Zoom "37")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "es7242_audio_1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1290 130 390")
+        (Scroll "398 294")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "es7242_audio_2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1160 0 260")
+        (Scroll "398 392")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "es7242_audio_3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 1186 26 286")
+        (Scroll "378 600")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "es7242_audio_4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 866 0 260")
+        (Scroll "0 342")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MICIN1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 26 892 26 286")
+        (Scroll "0 340")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MICIN2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 918 52 312")
+        (Scroll "-166 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MICIN3"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 944 78 338")
+        (Scroll "-166 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MICIN4"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 970 104 364")
+        (Scroll "-166 0")
+        (Zoom "50")
+        (Occurrence "/"))
+      (Path "E:\WEEK WORK\2016-1-WW01\ES7242\ES7242_PGA.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER_JACK")))
+  (LastUsedLibraryBrowseDirectory "E:\Cadence\SPB_17.0\tools\capture\library"))
